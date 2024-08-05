@@ -1,0 +1,29 @@
+.h100 {
+  height: calc(100vh - 64px);
+}
+
+.form {
+  display: flex;
+  flex-direction: column;
+}
+
+.btn {
+  margin-top: 10px;
+  margin-left: 10px;
+  width: 50%;
+  border-radius: 20px;
+  padding: 10px;
+  background-color: #148383;
+}
+
+.input {
+  padding: 6px;
+  background: none;
+  border: 1px solid black;
+  border-radius: 7px;
+  color: black
+}
+
+.invalid {
+  border: 3px solid red;
+}
